@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch index.ts",
+    "build": "npm run typecheck",
     "start": "node index.js",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
